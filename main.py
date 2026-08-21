@@ -67,7 +67,7 @@ def main():
     logger.info("開始下載與過濾 IPTV 播放清單...")
     
     # 預設來源網址 (可視需要更換為您常用的訂閱源)
-    source_url = "https://iptv-org.github.io/iptv/index.m3u"
+    source_url = "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u"
     
     try:
         response = requests.get(source_url, timeout=15)
